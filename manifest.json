@@ -1,0 +1,27 @@
+{
+  "name": "HOLZEN Cacao",
+  "short_name": "HOLZEN",
+  "description": "Cacao premium de origen peruano. Del árbol al alma.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1C0A00",
+  "theme_color": "#1C0A00",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='24' fill='%231C0A00'/%3E%3Ctext x='96' y='130' font-size='100' text-anchor='middle' fill='%23C8954A' font-family='Georgia,serif'%3EH%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='60' fill='%231C0A00'/%3E%3Ctext x='256' y='340' font-size='260' text-anchor='middle' fill='%23C8954A' font-family='Georgia,serif'%3EH%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "business", "shopping"]
+}
