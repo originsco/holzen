@@ -56,8 +56,40 @@ const Hero = () => {
         <p className="text-gold text-xs tracking-[0.4em] uppercase font-serif mb-4 opacity-90">
           {t('hero_eyebrow')}
         </p>
-        <h1 className="font-serif font-black text-[clamp(2.5rem,7vw,5.5rem)] leading-none tracking-[0.15em] text-cream uppercase mb-4">
-          HOLZEN
+        <h1 className="leading-none mb-4">
+          <span
+            style={{
+              display: 'block',
+              fontFamily: "'Poppins', sans-serif",
+              fontWeight: 800,
+              fontSize: 'clamp(2.5rem,7vw,5.5rem)',
+              color: '#36FF0F',
+              letterSpacing: '-0.01em',
+              lineHeight: 1,
+            }}
+          >
+            holzen
+          </span>
+          <span
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.75rem',
+              marginTop: '0.5rem',
+            }}
+          >
+            <span style={{ width: '3rem', height: '2px', backgroundColor: '#36FF0F', display: 'inline-block' }} />
+            <span
+              style={{
+                fontFamily: "'Inter', sans-serif",
+                fontWeight: 500,
+                fontSize: 'clamp(1rem,2vw,1.5rem)',
+                color: '#0D0D0C',
+              }}
+            >
+              coffee Peru
+            </span>
+          </span>
         </h1>
         <p className="font-serif font-black text-[clamp(0.85rem,2.3vw,1.9rem)] leading-tight tracking-[0.08em] text-cream uppercase mb-8 whitespace-pre-line">
           {t('hero_subtitle')}
